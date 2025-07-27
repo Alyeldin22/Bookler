@@ -1,0 +1,76 @@
+.home {
+    position: relative;
+    background-color: #f0f1f1;
+    overflow: hidden;
+}
+.home .home-content {
+    width: calc(100vw - 320px);
+    margin-left: 280px;
+}
+
+/* recommended hotels */
+.recommended-hotels {
+  width: 130%;
+  margin: 0 auto;
+  overflow-x: auto;
+ margin-top: 50px;
+}
+.recommended-hotels h3 {
+    text-transform: capitalize;
+    font-weight: bold
+}
+.carousel-container {
+    
+display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 16px;
+  padding-bottom: 1rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  user-select: none;
+
+
+}
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+.card-wrapper {
+  flex: 0 0 33.33%;
+  scroll-snap-align: start;
+  margin-right: 12px;
+}
+
+/* offers */
+.offers {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.offers h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 20px 0
+}
+.offers .offer-item {
+    border-radius: 50px;
+    background-color: #eef0f1;
+    padding: 20px !important
+}
+.offers .offer-item .offer-img {
+    height: 50px;
+}
+.offers .offer-item .offer-img img{
+    width: 50px;
+    height:50px !important;
+    border-radius: 50% !important;
+    object-fit: cover;
+}
+.offers .offer-item .offer-details h5{
+    font-size: 18px
+}
+.offers .offer-item .offer-details p{
+    font-size: 12px;
+    color: #808080
+}

@@ -1,0 +1,29 @@
+.aside {
+    width: 200px;
+    padding: 20px;
+    background-color: #0a67d8;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    border-radius: 5px;
+}
+.aside .logo-icon {
+    margin-bottom: 50px;
+}
+.aside .links a {
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.aside .links a svg {
+    margin-right: 10px;
+}
+
+.aside .aside-background {
+    background-image: url(../../assets/images/cloud.png);
+    background-size: contain;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}

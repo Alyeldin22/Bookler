@@ -1,0 +1,32 @@
+.search {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 2;
+    border-radius: 20px;
+}
+.search .search-item {
+    width: 20%;
+}
+.search .search-item input,
+.search .search-item select {
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: #f1f0f0;
+    border: none
+}
+.search .search-item label {
+    color: #d1cfcf;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.search .search-button {
+    background-color: #DF142D;
+    color: #FDF1F2
+}
+.search .clear {
+    background-color: #fff;
+    font-weight: bold;
+}

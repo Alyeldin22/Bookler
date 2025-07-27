@@ -1,0 +1,38 @@
+.login form {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.login form img {
+    margin-bottom: 50px
+}
+.login form h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.login form input {
+    width: 100%;
+}
+.login form .error {
+    text-align: left;
+    color: #dc6666;
+    height: 25px;
+    font-size: 12px
+}
+.login form .login-button {
+    width: 100%;
+    background-color: #0A6ADA;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.login-img {
+    max-height: 100vh
+}
+.login-img img {
+    width: 100%;
+    height: 100vh
+}

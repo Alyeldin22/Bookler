@@ -1,0 +1,39 @@
+.signup form {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px 0
+}
+.signup form img {
+    margin-bottom: 50px
+}
+.signup form h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.signup form input {
+    width: 100%;
+}
+.signup form .error {
+    text-align: left;
+    color: #dc6666;
+    height: 25px;
+    font-size: 12px
+}
+.signup form .signup-button {
+    width: 100%;
+    background-color: #0A6ADA;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.signup-img {
+    min-height: 100vh;
+    width: 50%
+}
+.signup-img img {
+    width: 100%;
+}

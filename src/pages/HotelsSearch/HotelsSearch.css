@@ -1,0 +1,32 @@
+.hotels-search {
+    width: calc(100vw - 320px);
+    margin-left: 280px;
+    
+}
+
+.hotels-search .filtered-hotels {
+    margin: 20px 0
+}
+
+.hotels-search .breadcrumb-section {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.hotels-search .breadcrumb-section ol {
+    margin: 0;
+}
+.breadcrumb-item span {
+    color: #0A6ADA;
+    font-weight: bold
+}
+
+.hotels-search .not-found {
+    padding: 50px;
+}
+.hotels-search .not-found p {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px
+}
