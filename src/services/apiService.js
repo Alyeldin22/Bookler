@@ -1,4 +1,31 @@
 import { ApiUrl } from "../network/interceptor/ApiUrl";
+import { initializeApp } from "firebase/app";
+import { getAuth, signInWithPopup, GoogleAuthProvider, FacebookAuthProvider } from "firebase/auth";
+
+// Firebase config (replace with your own config)
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
+
+const firebaseApp = initializeApp(firebaseConfig);
+const firebaseAuth = getAuth(firebaseApp);
+
+export const signInWithGoogle = async () => {
+  const provider = new GoogleAuthProvider();
+  const result = await signInWithPopup(firebaseAuth, provider);
+  return result.user;
+};
+
+export const signInWithFacebook = async () => {
+  const provider = new FacebookAuthProvider();
+  const result = await signInWithPopup(firebaseAuth, provider);
+  return result.user;
+};
 
 // API Service for Booking App
 export const apiService = {

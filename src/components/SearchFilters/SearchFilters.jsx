@@ -136,25 +136,36 @@ function SearchFilters({ onFiltersChange, initialFilters = {} }) {
           </div>
 
           {/* Price Range */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Price Range (per night)
-            </label>
-            <div className="px-2">
-              <RangeSlider
+          <div className="relative">
+            <label htmlFor="minmax-range" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Min-max range</label>
+            <div className="relative w-full">
+              {/* Tooltip above the thumb */}
+              <div
+                className="absolute left-0 -top-7 z-10 pointer-events-none"
+                style={{
+                  left: `calc(${(filters.priceRange[1] / 1000) * 100}% - 24px)`
+                }}
+              >
+                <span className="bg-blue-600 text-white text-xs px-2 py-1 rounded shadow">
+                  ${filters.priceRange[1]}
+                </span>
+              </div>
+              <input
+                id="minmax-range"
+                type="range"
                 min={0}
                 max={1000}
-                value={filters.priceRange}
-                onChange={(e) => {
-                  const [min, max] = e.target.value.split(',').map(Number);
-                  handlePriceRangeChange([min, max]);
+                value={filters.priceRange[1]}
+                className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
+                onChange={e => {
+                  const max = Number(e.target.value);
+                  handlePriceRangeChange([0, max]);
                 }}
-                className="w-full"
               />
-              <div className="flex justify-between text-sm text-gray-600 mt-2">
-                <span>${filters.priceRange[0]}</span>
-                <span>${filters.priceRange[1]}</span>
-              </div>
+            </div>
+            <div className="flex justify-between text-sm text-gray-600 mt-2">
+              <span>Min: $0</span>
+              <span>Max: ${filters.priceRange[1]}</span>
             </div>
           </div>
 

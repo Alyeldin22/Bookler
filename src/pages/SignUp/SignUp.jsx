@@ -4,11 +4,15 @@ import CustomButton from "../../components/Button/Button";
 import plane from "../../assets/images/form-img.png";
 import logo from "../../assets/images/blue-logo.png";
 import { TextInput, Select, Card } from 'flowbite-react';
+import { useDispatch } from "react-redux";
+import { setCurrentUser } from "../../store/UserSlice";
+import { signInWithGoogle, signInWithFacebook } from "../../services/apiService";
 
 function SignUpPage() {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const navigate = useNavigate();
   const watchPassword = watch("password");
+  const dispatch = useDispatch();
 
   const onSubmit = (data) => {
     console.log("Signup data:", data);
@@ -27,6 +31,36 @@ function SignUpPage() {
     console.log("User registered successfully:", data);
 
     navigate("/login");
+  };
+
+  const handleGoogleSignUp = async () => {
+    try {
+      const user = await signInWithGoogle();
+      dispatch(setCurrentUser({
+        name: user.displayName,
+        email: user.email,
+        photo: user.photoURL,
+        provider: "google"
+      }));
+      navigate("/");
+    } catch (error) {
+      alert("Google sign-up failed: " + error.message);
+    }
+  };
+
+  const handleFacebookSignUp = async () => {
+    try {
+      const user = await signInWithFacebook();
+      dispatch(setCurrentUser({
+        name: user.displayName,
+        email: user.email,
+        photo: user.photoURL,
+        provider: "facebook"
+      }));
+      navigate("/");
+    } catch (error) {
+      alert("Facebook sign-up failed: " + error.message);
+    }
   };
 
   return (
@@ -129,6 +163,10 @@ function SignUpPage() {
             title="sign up" 
           />
         </form>
+        <div className="flex flex-col gap-2 my-4">
+          <button onClick={handleGoogleSignUp} className="w-full bg-red-500 text-white rounded-md py-2 hover:bg-red-600">Sign up with Google</button>
+          <button onClick={handleFacebookSignUp} className="w-full bg-blue-800 text-white rounded-md py-2 hover:bg-blue-900">Sign up with Facebook</button>
+        </div>
 
         <p className="text-gray-600">
           Already have an account?{" "}

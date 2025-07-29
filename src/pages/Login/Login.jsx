@@ -6,6 +6,7 @@ import plane from "../../assets/images/form-img.png";
 import logo from "../../assets/images/blue-logo.png";
 import { Link, useNavigate } from "react-router-dom";
 import { TextInput, Card } from 'flowbite-react';
+import { signInWithGoogle, signInWithFacebook } from "../../services/apiService";
 
 function LoginPage() {
   const {handleSubmit, formState: { errors }, register} = useForm();
@@ -39,6 +40,36 @@ function LoginPage() {
       dispatch(setCurrentUser(fakeUser));
       console.log("Guest user created:", fakeUser);
       navigate("/");
+    }
+  };
+
+  const handleGoogleSignIn = async () => {
+    try {
+      const user = await signInWithGoogle();
+      dispatch(setCurrentUser({
+        name: user.displayName,
+        email: user.email,
+        photo: user.photoURL,
+        provider: "google"
+      }));
+      navigate("/");
+    } catch (error) {
+      alert("Google sign-in failed: " + error.message);
+    }
+  };
+
+  const handleFacebookSignIn = async () => {
+    try {
+      const user = await signInWithFacebook();
+      dispatch(setCurrentUser({
+        name: user.displayName,
+        email: user.email,
+        photo: user.photoURL,
+        provider: "facebook"
+      }));
+      navigate("/");
+    } catch (error) {
+      alert("Facebook sign-in failed: " + error.message);
     }
   };
 
@@ -83,6 +114,10 @@ function LoginPage() {
             title="login"
           />
         </form>
+        <div className="flex flex-col gap-2 my-4">
+          <button onClick={handleGoogleSignIn} className="w-full bg-red-500 text-white rounded-md py-2 hover:bg-red-600">Sign in with Google</button>
+          <button onClick={handleFacebookSignIn} className="w-full bg-blue-800 text-white rounded-md py-2 hover:bg-blue-900">Sign in with Facebook</button>
+        </div>
 
         <p className="text-gray-600">
           Don't have an account?{" "}

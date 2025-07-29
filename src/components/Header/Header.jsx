@@ -25,8 +25,12 @@ function NavigationHeader() {
       <div className="absolute top-6 right-6 flex items-center gap-4 z-10">
         {currentUser ? (
           <div className="flex items-center gap-3 bg-white bg-opacity-20 backdrop-blur-sm rounded-full px-4 py-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-              <FontAwesomeIcon icon={faUser} className="text-white text-sm" />
+            <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center overflow-hidden">
+              {currentUser.photo ? (
+                <img src={currentUser.photo} alt="profile" className="w-8 h-8 object-cover rounded-full" />
+              ) : (
+                <FontAwesomeIcon icon={faUser} className="text-white text-sm" />
+              )}
             </div>
             <span className="text-white font-medium">{currentUser.name || currentUser.email}</span>
             <FontAwesomeIcon icon={faChevronDown} className="text-white text-xs" />

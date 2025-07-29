@@ -1,12 +1,13 @@
+.shrink {
+    width: 60px !important;
+    min-width: 60px;
+    max-width: 60px;
+    overflow: hidden;
+    transition: width 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+
 .aside {
-    width: 200px;
-    padding: 20px;
-    background-color: #0a67d8;
-    color: #fff;
-    position: absolute;
-    top: 50px;
-    left: 40px;
-    border-radius: 5px;
+    transition: width 0.3s cubic-bezier(0.4,0,0.2,1);
 }
 .aside .logo-icon {
     margin-bottom: 50px;
