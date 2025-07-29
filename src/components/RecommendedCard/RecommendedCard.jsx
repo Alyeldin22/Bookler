@@ -3,17 +3,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
 import { Card } from 'flowbite-react';
 import { useNavigate } from "react-router-dom";
+import { useSelector } from 'react-redux';
 
 function FeaturedAccommodationCard({hotel}) {
   const navigate = useNavigate();
+  const { currentUser } = useSelector((state) => state.user);
 
-  const handleBookNow = () => {
-    // Navigate to the booking page
-    navigate(`/book-hotel/${hotel.id}`);
+  const handleBookNow = (e) => {
+    e.stopPropagation();
+    if (!currentUser) {
+      navigate('/login');
+    } else {
+      navigate(`/book-hotel/${hotel.id}`);
+    }
   };
 
   const handleCardClick = () => {
-    // Navigate to hotel details page when card is clicked
     navigate(`/hotelssearch/${hotel.id}`);
   };
 

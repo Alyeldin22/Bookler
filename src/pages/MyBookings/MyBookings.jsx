@@ -94,6 +94,8 @@ function MyBookings() {
     setSelectedReceipt(null);
   };
 
+  const totalPrice = bookings.reduce((sum, b) => sum + (Number(b.totalPrice) || 0), 0);
+
   return (
     <>
       <NavigationHeader />
@@ -104,6 +106,12 @@ function MyBookings() {
           <h1 className="text-3xl font-bold text-gray-800 mb-2">My Bookings</h1>
           <p className="text-gray-600">Welcome back, {currentUser?.name || currentUser?.email}</p>
         </div>
+        {bookings.length > 0 && (
+          <div className="mb-6 flex items-center gap-4 bg-blue-50 border border-blue-200 rounded-lg p-4">
+            <span className="text-lg font-semibold text-gray-700">Total Price of All Bookings:</span>
+            <span className="text-2xl font-bold text-blue-600">${totalPrice}</span>
+          </div>
+        )}
 
         {bookings.length === 0 ? (
           <Card className="text-center p-8">

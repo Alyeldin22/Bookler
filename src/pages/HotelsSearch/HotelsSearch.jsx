@@ -151,7 +151,7 @@ function HotelsSearchPage() {
       <NavigationHeader />
       <SideNavigation />
 
-      <section className="hotels-search w-[calc(100vw-320px)] ml-72">
+      <section className="hotels-search w-full max-w-full md:w-[calc(100vw-320px)] md:ml-72 px-2 md:px-0">
         <SearchForm />
 
         <div className="breadcrumb-section mt-8">
@@ -196,14 +196,14 @@ function HotelsSearchPage() {
           )}
 
           {!loading && !error && (
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {filteredHotels.length > 0 ? (
                 filteredHotels.map((hotel) => (
                   <AccommodationCard key={hotel.id} hotel={hotel} />
                 ))
               ) : (
-                <div className="not-found flex flex-col items-center justify-center col-span-2 py-12">
-                  <img src={notFound} alt="not found" className="w-64 h-64"/>
+                <div className="not-found flex flex-col items-center justify-center col-span-1 md:col-span-2 py-12">
+                  <img src={notFound} alt="not found" className="w-40 h-40 md:w-64 md:h-64"/>
                   <p className="font-bold text-2xl mt-5">No Result Found</p>
                   <p className="text-gray-500 mt-2">Try adjusting your search criteria</p>
                   {getActiveFilters().length > 0 && (

@@ -7,7 +7,7 @@ import { logOut } from '../../store/UserSlice';
 import "./SideBar.css";
 import { useState } from 'react';
 
-function SideNavigation() {
+function SideNavigation({ onShrinkChange }) {
   const { currentUser } = useSelector((state) => state.user);
   const dispatch = useDispatch();
   const [shrink, setShrink] = useState(false);
@@ -17,17 +17,21 @@ function SideNavigation() {
   };
 
   const handleToggleShrink = () => {
-    setShrink((prev) => !prev);
+    setShrink((prev) => {
+      const newShrink = !prev;
+      if (onShrinkChange) onShrinkChange(newShrink);
+      return newShrink;
+    });
   };
 
   return (
     <aside className={`sidebar-custom aside ${shrink ? 'shrink' : ''} w-48 p-5 bg-blue-600 text-white absolute top-12 left-10 rounded-md shadow-lg`}>
       <div className="flex justify-between items-center mb-12">
         <div className="logo">
-          <img src={logo} alt="logo" className="h-8"/>
+          <img src={logo} alt="logo" className="h-7 w-20 text-center"/>
         </div>
-        <div className="icon cursor-pointer hover:scale-110 transition-transform" onClick={handleToggleShrink}>
-          <FontAwesomeIcon icon={faBars}/>
+        <div className="icon cursor-pointer hover:scale-110 transition-transform" onClick={handleToggleShrink} style={{ width: '63.5px', height: '17px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <FontAwesomeIcon icon={faBars} style={{ width: '63.5px', height: '17px' }}/>
         </div>
       </div>
       <div className={`flex flex-col gap-4`}>
@@ -84,4 +88,4 @@ function SideNavigation() {
   )
 }
 
-export default SideNavigation
+export default SideNavigation;

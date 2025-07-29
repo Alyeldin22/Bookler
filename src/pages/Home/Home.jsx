@@ -14,6 +14,7 @@ function HomePage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const carouselRef = useRef(null);
+  const [sidebarShrink, setSidebarShrink] = useState(false);
 
   //fetch recommended hotels data
   useEffect(()=>{
@@ -71,8 +72,9 @@ function HomePage() {
   return (
     <section className="relative bg-gray-100 overflow-hidden">
       <NavigationHeader />
-      <SideNavigation />
-      <div className="home-content w-[calc(100vw-320px)] ml-72">
+      <SideNavigation onShrinkChange={setSidebarShrink} />
+      {/* Responsive main content wrapper */}
+      <div className={`home-content max-w-full w-full md:w-[calc(100vw-320px)] px-2 md:px-0 transition-all duration-300 ${sidebarShrink ? 'md:ml-20' : 'md:ml-72'}`}>
         <SearchForm />
 
         {loading && (
@@ -91,7 +93,7 @@ function HomePage() {
         {!loading && !error && (
           <>
             <section className="recommended-hotels w-full mx-auto mt-12 relative">
-              <div className="flex items-center justify-between mb-6">
+              <div className="flex flex-col md:flex-row items-center justify-between mb-6 gap-4 md:gap-0">
                 <h3 className="capitalize font-bold text-2xl">Recommended Hotels</h3>
                 <div className="flex gap-2">
                   <Button
@@ -124,7 +126,7 @@ function HomePage() {
                   recommendedHotels.map((hotel) => (
                     <div
                       key={hotel.id}
-                      className="card-wrapper flex-shrink-0 w-80"
+                      className="card-wrapper flex-shrink-0 w-72 md:w-80"
                     >
                       <FeaturedAccommodationCard hotel={hotel} />
                     </div>
@@ -159,7 +161,7 @@ function HomePage() {
               )}
             </section>
 
-            <section className="offers mt-12 bg-white p-6 rounded-3xl mb-12">
+            <section className="offers mt-12 bg-white p-4 md:p-6 rounded-3xl mb-12">
               <h3 className="capitalize font-bold text-2xl py-5 mb-6">Best Offers</h3>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

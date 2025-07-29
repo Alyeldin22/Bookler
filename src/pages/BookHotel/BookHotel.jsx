@@ -269,10 +269,17 @@ function BookHotel() {
       <NavigationHeader />
       <SideNavigation />
       
-      <section className="w-[calc(100vw-320px)] ml-72 p-6">
+      <section className="w-full max-w-full md:w-[calc(100vw-320px)] md:ml-72 p-2 md:p-6">
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-gray-800 mb-2">Book Hotel</h1>
           <p className="text-gray-600">Complete your booking for {hotel?.name || 'Selected Hotel'}</p>
+        </div>
+        {/* Total Price Display */}
+        <div className="mb-6">
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 flex flex-col md:flex-row md:items-center md:justify-between">
+            <span className="text-lg font-semibold text-gray-700">Total Price</span>
+            <span className="text-2xl font-bold text-blue-600">${bookingData.totalPrice}</span>
+          </div>
         </div>
 
         {paymentError && (
@@ -281,9 +288,9 @@ function BookHotel() {
           </Alert>
         )}
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Main Form */}
-          <div className="lg:col-span-2 space-y-6">
+          <div className="md:col-span-2 space-y-6">
             {/* User Details Form */}
             <Card>
               <div className="flex items-center gap-2 mb-4">
@@ -502,7 +509,7 @@ function BookHotel() {
           </div>
 
           {/* Booking Summary */}
-          <div className="lg:col-span-1">
+          <div className="md:col-span-1">
             <Card className="sticky top-6">
               <h2 className="text-xl font-semibold mb-4">Booking Summary</h2>
               
@@ -565,15 +572,18 @@ function BookHotel() {
       </section>
 
       {/* Success Modal */}
-      <Modal show={showSuccessModal} onClose={handleSuccessModalClose} size="4xl">
-        <Modal.Body className="p-0">
-          {paymentReceipt && (
-            <PaymentReceipt 
-              receipt={paymentReceipt} 
-              onClose={handleSuccessModalClose} 
-            />
-          )}
+      <Modal show={showSuccessModal} onClose={handleSuccessModalClose} size="md">
+        <Modal.Header>Booking Successful!</Modal.Header>
+        <Modal.Body>
+          <div className="space-y-4 p-2 md:p-4">
+            <PaymentReceipt receipt={paymentReceipt} />
+          </div>
         </Modal.Body>
+        <Modal.Footer>
+          <Button color="blue" onClick={handleSuccessModalClose}>
+            Go to My Bookings
+          </Button>
+        </Modal.Footer>
       </Modal>
     </>
   );

@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import FeaturedAccommodationCard from "../../components/RecommendedCard/RecommendedCard";
 import { ApiUrl } from "../../network/interceptor/ApiUrl";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faLocationDot, faWifi, faParking, faUtensils, faDumbbell, faSwimmingPool, faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import NavigationHeader from "../../components/Header/Header";
@@ -9,6 +9,7 @@ import SideNavigation from "../../components/SideBar/SideBar";
 import SearchForm from "../../components/SearchInput/SearchInput";
 import { Card, Button, Spinner } from 'flowbite-react';
 import CustomButton from "../../components/Button/Button";
+import { useSelector } from 'react-redux';
 
 function HotelDetailsPage() {
   const [hotel, setHotel] = useState(null);
@@ -16,6 +17,7 @@ function HotelDetailsPage() {
   const [error, setError] = useState(null);
   const { id } = useParams();
   const carouselRef = useRef(null);
+  const navigate = useNavigate();
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -103,6 +105,16 @@ function HotelDetailsPage() {
     });
   }, [id]);
 
+  const { currentUser } = useSelector((state) => state.user);
+
+  const handleBookNow = () => {
+    if (!currentUser) {
+      navigate('/login');
+    } else {
+      navigate(`/book-hotel/${hotel.id}`);
+    }
+  };
+
   // Helper function to get hotel images safely
   const getHotelImages = () => {
     if (!hotel) return [];
@@ -159,12 +171,12 @@ function HotelDetailsPage() {
       <NavigationHeader />
       <SideNavigation />
 
-      <section className="hotel-details w-[calc(100vw-320px)] ml-72">
+      <section className="hotel-details w-full max-w-full md:w-[calc(100vw-320px)] md:ml-72 px-2 md:px-0">
         <SearchForm />
         
         {!loading && !error && hotel && (
-          <Card className="hotel-details-container flex items-stretch justify-between mt-5 p-5">
-            <div className="hotel-carousel w-[49%] h-96">
+          <Card className="hotel-details-container flex flex-col md:flex-row items-stretch justify-between mt-5 p-2 md:p-5">
+            <div className="hotel-carousel w-full md:w-1/2 h-64 md:h-96 mb-4 md:mb-0">
               <div className="relative h-full">
                 {currentImage ? (
                   <img
@@ -208,7 +220,7 @@ function HotelDetailsPage() {
               </div>
             </div>
 
-            <div className="hotel-info w-[49%] p-4">
+            <div className="hotel-info w-full md:w-1/2 p-2 md:p-4">
               <div className="flex justify-between items-start mb-4">
                 <h1 className="text-3xl font-bold text-gray-800">{hotel.name || 'Hotel Name'}</h1>
                 <div className="flex items-center bg-blue-600 text-white px-3 py-1 rounded-md">
@@ -269,12 +281,12 @@ function HotelDetailsPage() {
                         {hotel.pricing?.[0]?.discount || 'N/A'} off
                       </p>
                     </div>
-                    <Link to={`/book-hotel/${hotel.id}`}>
-                      <CustomButton 
-                        title="Book Now" 
-                        className="bg-red-600 hover:bg-red-700 text-white px-6 py-3"
-                      />
-                    </Link>
+                    <Button 
+                      onClick={handleBookNow}
+                      className="bg-red-600 hover:bg-red-700 text-white px-6 py-3"
+                    >
+                      Book Now
+                    </Button>
                   </div>
                 </div>
               </div>

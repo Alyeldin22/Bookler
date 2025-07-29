@@ -1,6 +1,6 @@
 .hotels-search {
-    width: calc(100vw - 320px);
-    margin-left: 280px;
+    width: 100%;
+    margin-left: 0;
     
 }
 

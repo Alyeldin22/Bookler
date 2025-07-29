@@ -4,13 +4,13 @@
     overflow: hidden;
 }
 .home .home-content {
-    width: calc(100vw - 320px);
-    margin-left: 280px;
+  width: 100%;
+  margin-left: 0;
 }
 
 /* recommended hotels */
 .recommended-hotels {
-  width: 130%;
+  width: 100%;
   margin: 0 auto;
   overflow-x: auto;
  margin-top: 50px;
