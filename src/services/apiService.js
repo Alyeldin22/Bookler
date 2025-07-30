@@ -2,7 +2,7 @@ import { ApiUrl } from "../network/interceptor/ApiUrl";
 import { initializeApp } from "firebase/app";
 import { getAuth, signInWithPopup, GoogleAuthProvider, FacebookAuthProvider } from "firebase/auth";
 
-// Firebase config (replace with your own config)
+
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
@@ -27,9 +27,9 @@ export const signInWithFacebook = async () => {
   return result.user;
 };
 
-// API Service for Booking App
+
 export const apiService = {
-  // Get all hotels
+
   getAllHotels: async () => {
     try {
       const response = await ApiUrl.get("/hotels");
@@ -40,7 +40,7 @@ export const apiService = {
     }
   },
 
-  // Get recommended hotels
+
   getRecommendedHotels: async () => {
     try {
       const response = await ApiUrl.get("/recommended_hotels");
@@ -51,7 +51,7 @@ export const apiService = {
     }
   },
 
-  // Get best offers
+
   getBestOffers: async () => {
     try {
       const response = await ApiUrl.get("/best_offer");
@@ -62,7 +62,7 @@ export const apiService = {
     }
   },
 
-  // Get hotel by ID
+
   getHotelById: async (id) => {
     try {
       const response = await ApiUrl.get(`/hotels/${id}`);
@@ -73,10 +73,10 @@ export const apiService = {
     }
   },
 
-  // Get all available endpoints (for discovery)
+
   getAllEndpoints: async () => {
     try {
-      // Try to fetch all known endpoints
+      
       const endpoints = [
         { name: "Hotels", endpoint: "/hotels" },
         { name: "Recommended Hotels", endpoint: "/recommended_hotels" },
@@ -113,7 +113,7 @@ export const apiService = {
     }
   },
 
-  // Search hotels with filters
+
   searchHotels: async (filters = {}) => {
     try {
       const params = new URLSearchParams();
@@ -133,7 +133,7 @@ export const apiService = {
     }
   },
 
-  // Get API statistics
+
   getApiStats: async () => {
     try {
       const stats = {
@@ -143,7 +143,7 @@ export const apiService = {
         apiStatus: "unknown"
       };
 
-      // Get total hotels
+    
       try {
         const hotelsResponse = await ApiUrl.get("/hotels");
         stats.totalHotels = Array.isArray(hotelsResponse.data) ? hotelsResponse.data.length : 0;
@@ -151,7 +151,7 @@ export const apiService = {
         console.warn("Could not fetch hotels count:", error.message);
       }
 
-      // Get total recommended hotels
+      
       try {
         const recommendedResponse = await ApiUrl.get("/recommended_hotels");
         stats.totalRecommended = Array.isArray(recommendedResponse.data) ? recommendedResponse.data.length : 0;
@@ -159,7 +159,7 @@ export const apiService = {
         console.warn("Could not fetch recommended hotels count:", error.message);
       }
 
-      // Get total offers
+      
       try {
         const offersResponse = await ApiUrl.get("/best_offer");
         stats.totalOffers = Array.isArray(offersResponse.data) ? offersResponse.data.length : 0;
@@ -167,7 +167,7 @@ export const apiService = {
         console.warn("Could not fetch offers count:", error.message);
       }
 
-      // Check API status
+    
       try {
         await ApiUrl.get("/");
         stats.apiStatus = "online";
@@ -183,7 +183,7 @@ export const apiService = {
   }
 };
 
-// Utility function to fetch all data at once
+
 export const fetchAllData = async () => {
   try {
     console.log("🔄 Fetching all API data...");
@@ -203,7 +203,7 @@ export const fetchAllData = async () => {
       errors: []
     };
 
-    // Collect any errors
+    
     [hotels, recommended, offers, stats].forEach((result, index) => {
       if (result.status === 'rejected') {
         const endpointNames = ['hotels', 'recommended', 'offers', 'stats'];

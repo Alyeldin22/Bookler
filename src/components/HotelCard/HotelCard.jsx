@@ -13,16 +13,16 @@ function AccommodationCard({hotel}) {
     if (!currentUser) {
       navigate('/login');
     } else {
-      navigate(`/book-hotel/${hotel.id}`);
+    navigate(`/book-hotel/${hotel.id}`);
     }
   };
 
   const handleViewMore = () => {
-    // Navigate to hotel details page
+
     navigate(`/hotelssearch/${hotel.id}`);
   };
 
-  // Safety checks for hotel data
+  
   const hotelName = hotel?.name || 'Hotel Name';
   const hotelImage = hotel?.images?.main || hotel?.images?.[0] || 'https://via.placeholder.com/300x200?text=No+Image';
   const hotelRating = hotel?.rating?.score || 'N/A';

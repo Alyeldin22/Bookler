@@ -17,7 +17,7 @@ function HotelsSearchPage() {
     const [filteredHotels, setFilteredHotels] = useState([]);
     const [additionalFilters, setAdditionalFilters] = useState({});
     
-    // Get all search parameters
+
     const search = searchParams.get("q") || "";
     const country = searchParams.get("country") || "";
     const date = searchParams.get("date") || "";
@@ -44,29 +44,29 @@ function HotelsSearchPage() {
         });
     },[])
 
-    // Apply filters whenever hotels or search params change
+
     useEffect(() => {
         if (hotels.length > 0) {
             let filtered = hotels.filter((hotel) => {
-                // Name/Location search
+        
                 const nameMatch = !search || 
                     hotel.name.toLowerCase().includes(search.toLowerCase()) ||
                     (hotel.address && hotel.address.city && hotel.address.city.toLowerCase().includes(search.toLowerCase()));
                 
-                // Country filter
+
                 const countryMatch = !country || 
                     (hotel.address && hotel.address.countryIsoCode === country);
                 
-                // Price filter (from URL params)
+
                 const basePrice = hotel.pricing && hotel.pricing[0] ? hotel.pricing[0].discountedPrice : 100;
                 const priceMatch = (!minPrice || basePrice >= parseInt(minPrice)) && 
                                  (!maxPrice || basePrice <= parseInt(maxPrice));
                 
-                // Rating filter (from URL params)
+
                 const ratingMatch = !rating || 
                     (hotel.rating && hotel.rating >= parseInt(rating));
                 
-                // Amenities filter (from URL params)
+
                 const amenitiesMatch = !amenities || 
                     (hotel.amenities && amenities.split(',').every(amenity => 
                         hotel.amenities.some(hotelAmenity => 
@@ -74,7 +74,7 @@ function HotelsSearchPage() {
                         )
                     ));
                 
-                // Additional filters from SearchFilters component
+
                 const additionalPriceMatch = !additionalFilters.priceRange || 
                     (basePrice >= additionalFilters.priceRange[0] && basePrice <= additionalFilters.priceRange[1]);
                 
@@ -92,7 +92,7 @@ function HotelsSearchPage() {
                        additionalPriceMatch && additionalRatingMatch && additionalAmenitiesMatch;
             });
             
-            // Apply sorting
+    
             if (additionalFilters.sortBy) {
                 filtered = sortHotels(filtered, additionalFilters.sortBy);
             }
@@ -135,7 +135,7 @@ function HotelsSearchPage() {
             case 'rating':
                 return sorted.sort((a, b) => (b.rating || 0) - (a.rating || 0));
             case 'distance':
-                // For now, just return as is since we don't have distance data
+        
                 return sorted;
             default:
                 return sorted;

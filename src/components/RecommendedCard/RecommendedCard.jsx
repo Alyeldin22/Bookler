@@ -14,7 +14,7 @@ function FeaturedAccommodationCard({hotel}) {
     if (!currentUser) {
       navigate('/login');
     } else {
-      navigate(`/book-hotel/${hotel.id}`);
+    navigate(`/book-hotel/${hotel.id}`);
     }
   };
 
@@ -22,7 +22,7 @@ function FeaturedAccommodationCard({hotel}) {
     navigate(`/hotelssearch/${hotel.id}`);
   };
 
-  // Safety checks for hotel data
+  
   const hotelName = hotel?.name || 'Hotel Name';
   const hotelImage = hotel?.images?.main || hotel?.images?.[0] || 'https://via.placeholder.com/300x200?text=No+Image';
   const hotelRating = hotel?.rating?.score || 0;
@@ -33,7 +33,7 @@ function FeaturedAccommodationCard({hotel}) {
   const discountedPrice = hotelPricing.discountedPrice || 'N/A';
   const discount = hotelPricing.discount || 'N/A';
 
-  // Generate star rating display
+  
   const renderStars = () => {
     const fullStars = Math.floor(hotelRating);
     const hasHalfStar = hotelRating - fullStars !== 0;

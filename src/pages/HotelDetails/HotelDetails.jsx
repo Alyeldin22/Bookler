@@ -24,12 +24,12 @@ function HotelDetailsPage() {
   const [recommendedHotels, setRecommendedHotels] = useState(null);
   const [recommendedLoading, setRecommendedLoading] = useState(true);
 
-  //fetch recommended hotels data
+  
   useEffect(()=>{
     setRecommendedLoading(true);
     ApiUrl.get("/recommended_hotels")
     .then((res)=>{
-      // Filter out the current hotel from recommendations
+  
       const filteredHotels = res.data.filter(h => h.id !== parseInt(id));
       setRecommendedHotels(filteredHotels);
       console.log("Recommended hotels:", filteredHotels);
@@ -60,7 +60,7 @@ function HotelDetailsPage() {
 
   const scrollCarousel = (direction) => {
     if (carouselRef.current) {
-      const scrollAmount = 400; // Adjust based on card width
+      const scrollAmount = 400;
       const currentScroll = carouselRef.current.scrollLeft;
       
       if (direction === 'left') {
@@ -84,7 +84,7 @@ function HotelDetailsPage() {
   const canScrollRight = () => {
     if (!carouselRef.current) return false;
     const { scrollLeft, scrollWidth, clientWidth } = carouselRef.current;
-    return scrollLeft < scrollWidth - clientWidth - 10; // 10px buffer
+    return scrollLeft < scrollWidth - clientWidth - 10;
   };
 
   useEffect(() => {
@@ -115,7 +115,7 @@ function HotelDetailsPage() {
     }
   };
 
-  // Helper function to get hotel images safely
+
   const getHotelImages = () => {
     if (!hotel) return [];
     if (Array.isArray(hotel.images)) return hotel.images;
@@ -123,7 +123,7 @@ function HotelDetailsPage() {
     return [];
   };
 
-  // Helper function to get current image
+
   const getCurrentImage = () => {
     const images = getHotelImages();
     if (images.length === 0) return null;
@@ -283,7 +283,7 @@ function HotelDetailsPage() {
                     </div>
                     <Button 
                       onClick={handleBookNow}
-                      className="bg-red-600 hover:bg-red-700 text-white px-6 py-3"
+                        className="bg-red-600 hover:bg-red-700 text-white px-6 py-3"
                     >
                       Book Now
                     </Button>

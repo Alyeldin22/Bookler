@@ -2,22 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Hide scrollbar for carousel components */
+
 .scrollbar-hide {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
-  display: none;  /* Safari and Chrome */
+  display: none;
 }
 
-/* Smooth transitions for carousel navigation */
+
 .carousel-container {
   scroll-behavior: smooth;
 }
 
-/* Hover effects for hotel cards */
+
 .hotel-card-hover {
   transition: all 0.3s ease;
 }
@@ -27,7 +27,7 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* Custom scrollbar styling */
+
 .custom-scrollbar::-webkit-scrollbar {
   width: 6px;
 }
@@ -46,7 +46,7 @@
   background: #a8a8a8;
 }
 
-/* Loading animation */
+
 @keyframes pulse {
   0%, 100% {
     opacity: 1;
@@ -60,7 +60,7 @@
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
-/* Fade in animation */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -76,7 +76,7 @@
   animation: fadeIn 0.5s ease-out;
 }
 
-/* Slide animation for carousel */
+
 @keyframes slideIn {
   from {
     transform: translateX(100%);
@@ -90,7 +90,7 @@
   animation: slideIn 0.3s ease-out;
 }
 
-/* Responsive design improvements */
+
 @media (max-width: 768px) {
   .carousel-container {
     gap: 1rem;

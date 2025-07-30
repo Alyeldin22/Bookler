@@ -40,7 +40,7 @@ function BookHotel() {
   const watchGuests = watch('guests');
   const watchCardNumber = watch('cardNumber');
 
-  // Fetch hotel details
+  
   useEffect(() => {
     if (id) {
       ApiUrl.get(`/hotels/${id}`)
@@ -55,7 +55,7 @@ function BookHotel() {
     }
   }, [id]);
 
-  // Calculate total price when dates or guests change
+  
   useEffect(() => {
     if (hotel && watchCheckIn && watchCheckOut) {
       try {
@@ -74,7 +74,7 @@ function BookHotel() {
         });
       } catch (error) {
         console.error('Error calculating total price:', error);
-        // Set default values if calculation fails
+
         setBookingData({
           ...bookingData,
           checkIn: watchCheckIn,
@@ -86,7 +86,7 @@ function BookHotel() {
     }
   }, [watchCheckIn, watchCheckOut, watchGuests, hotel]);
 
-  // Pre-fill user data
+  
   useEffect(() => {
     if (currentUser) {
       setValue('name', currentUser.name || '');
@@ -96,7 +96,7 @@ function BookHotel() {
     }
   }, [currentUser, setValue]);
 
-  // Format card number as user types
+  
   useEffect(() => {
     if (watchCardNumber) {
       const formatted = paymentService.formatCardNumber(watchCardNumber);
@@ -187,7 +187,7 @@ function BookHotel() {
       setShowSuccessModal(true);
     } catch (error) {
       console.error('Booking failed:', error);
-      // Error is already set in processPayment
+      
     }
   };
 
@@ -201,7 +201,7 @@ function BookHotel() {
       return paymentService.getPaymentMethods();
     } catch (error) {
       console.error('Error getting payment methods:', error);
-      // Fallback payment methods with emoji icons
+      
       return [
         {
           id: 'credit_card',

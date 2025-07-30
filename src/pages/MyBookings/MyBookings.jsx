@@ -8,7 +8,7 @@ import NavigationHeader from '../../components/Header/Header';
 import SideNavigation from '../../components/SideBar/SideBar';
 import PaymentReceipt from '../../components/PaymentReceipt/PaymentReceipt';
 
-// MyBookings component with proper imports
+
 function MyBookings() {
   const { bookings } = useSelector((state) => state.booking);
   const { currentUser } = useSelector((state) => state.user);
@@ -51,7 +51,7 @@ function MyBookings() {
           return <FontAwesomeIcon icon={faCreditCard} className="text-gray-600" />;
       }
     } catch (error) {
-      // Fallback to emoji if icon fails to load
+      
       switch (method) {
         case 'credit_card':
           return <span className="text-blue-600">💳</span>;

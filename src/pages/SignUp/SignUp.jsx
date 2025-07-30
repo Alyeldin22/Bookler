@@ -19,7 +19,7 @@ function SignUpPage() {
     
     const users = JSON.parse(localStorage.getItem("users")) || [];
 
-    // Check if user already exists
+
     const existingUser = users.find(user => user.email === data.email);
     if (existingUser) {
       alert("User with this email already exists!");

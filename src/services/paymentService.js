@@ -52,10 +52,10 @@ export const paymentService = {
   },
   processPayment: async (paymentData) => {
     try {
-      // Simulate API call to payment processor
+  
       const response = await new Promise((resolve, reject) => {
         setTimeout(() => {
-          // Simulate 95% success rate
+          
           if (Math.random() > 0.05) {
             resolve({
               success: true,
@@ -69,7 +69,7 @@ export const paymentService = {
           } else {
             reject(new Error('Payment failed. Please try again.'));
           }
-        }, 2000); // Simulate network delay
+                  }, 2000);
       });
       return response;
     } catch (error) {
@@ -77,7 +77,7 @@ export const paymentService = {
     }
   },
   processCreditCardPayment: async (cardData, amount, currency = 'USD') => {
-    // Validate card data
+
     if (!paymentService.validateCardNumber(cardData.cardNumber)) {
       throw new Error('Invalid card number');
     }
@@ -140,7 +140,7 @@ export const paymentService = {
   },
   calculateFees: (amount, paymentMethod) => {
     const fees = {
-      credit_card: 0.029, // 2.9%
+              credit_card: 0.029,
       paypal: 0.029,
       apple_pay: 0.015,
       google_pay: 0.015

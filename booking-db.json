@@ -1,0 +1,3087 @@
+
+{
+  "hotels": [
+    {
+      "id": "marriott_marquis_sf",
+      "name": "San Francisco Marriott Marquis",
+      "address": {
+        "street": "780 Mission Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.9,
+        "maxScore": 5,
+        "reviewCount": 276,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 499,
+          "discountedPrice": 399,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 502,
+          "discountedPrice": 401.6,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 600,
+          "discountedPrice": 540,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Parking", "Attached Bathroom", "CCTV Cameras", "Wifi"],
+      "description": "Whether you are in town for business or leisure, San Francisco welcomes travelers to Northern California with exceptional service.",
+      "images": {
+        "main": "https://cache.marriott.com/content/dam/marriott-renditions/SFODT/sfodt-exterior-0174-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1920px:*",
+        "gallery": [
+          "https://cache.marriott.com/content/dam/marriott-renditions/SFODT/sfodt-exterior-0174-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1920px:*",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLHfPYnC2wavjxOLsC446WyIqDZw7SFlRJTQ&s",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLHfPYnC2wavjxOLsC446WyIqDZw7SFlRJTQ&s"
+        ]
+      }
+    },
+    {
+      "id": "grand_central_nyc",
+      "name": "Grand Central Hotel New York",
+      "address": {
+        "street": "123 Park Avenue",
+        "city": "New York",
+        "state": "NY",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.7,
+        "maxScore": 5,
+        "reviewCount": 892,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 650,
+          "discountedPrice": 520,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 655,
+          "discountedPrice": 524,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 780,
+          "discountedPrice": 702,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": [
+        "Valet Parking",
+        "Concierge",
+        "Fitness Center",
+        "Wifi",
+        "Room Service"
+      ],
+      "description": "Luxury hotel in the heart of Manhattan with stunning city views and world-class amenities.",
+      "images": {
+        "main": "https://cache.marriott.com/content/dam/marriott-digital/wi/us-canada/hws/n/nyczw/en_us/photo/unlimited/assets/wi-nyczw-exterior-v1-25034.jpg",
+        "gallery": [
+          "https://cache.marriott.com/content/dam/marriott-digital/wi/us-canada/hws/n/nyczw/en_us/photo/unlimited/assets/wi-nyczw-exterior-v1-25034.jpg",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "ocean_view_miami",
+      "name": "Ocean View Resort Miami",
+      "address": {
+        "street": "456 Ocean Drive",
+        "city": "Miami",
+        "state": "FL",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.5,
+        "maxScore": 5,
+        "reviewCount": 634,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 380,
+          "discountedPrice": 304,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 385,
+          "discountedPrice": 308,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 450,
+          "discountedPrice": 405,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Beach Access", "Pool", "Spa", "Wifi", "Restaurant"],
+      "description": "Beachfront resort with direct ocean access and tropical paradise vibes.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "downtown_chicago_suite",
+      "name": "Downtown Chicago Suites",
+      "address": {
+        "street": "789 Michigan Avenue",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.3,
+        "maxScore": 5,
+        "reviewCount": 445,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 420,
+          "discountedPrice": 315,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "25% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 425,
+          "discountedPrice": 318.75,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "25% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 500,
+          "discountedPrice": 450,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Parking", "Kitchen", "Laundry", "Wifi", "Business Center"],
+      "description": "Spacious suites perfect for extended stays in downtown Chicago.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "vegas_strip_palace",
+      "name": "Vegas Strip Palace",
+      "address": {
+        "street": "321 Las Vegas Boulevard",
+        "city": "Las Vegas",
+        "state": "NV",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.6,
+        "maxScore": 5,
+        "reviewCount": 1203,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 299,
+          "discountedPrice": 239,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 305,
+          "discountedPrice": 244,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 360,
+          "discountedPrice": 324,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Casino", "Pool", "Shows", "Wifi", "Multiple Restaurants"],
+      "description": "Experience the excitement of Vegas with luxurious accommodations right on the Strip.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "seattle_waterfront",
+      "name": "Seattle Waterfront Hotel",
+      "address": {
+        "street": "654 Pike Place",
+        "city": "Seattle",
+        "state": "WA",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.4,
+        "maxScore": 5,
+        "reviewCount": 567,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 350,
+          "discountedPrice": 280,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 355,
+          "discountedPrice": 284,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 420,
+          "discountedPrice": 378,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": [
+        "Waterfront Views",
+        "Seafood Restaurant",
+        "Wifi",
+        "Fitness Center"
+      ],
+      "description": "Stunning waterfront views with easy access to Pike Place Market and Seattle attractions.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "boston_historic_inn",
+      "name": "Boston Historic Inn",
+      "address": {
+        "street": "987 Beacon Street",
+        "city": "Boston",
+        "state": "MA",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.2,
+        "maxScore": 5,
+        "reviewCount": 334,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 290,
+          "discountedPrice": 232,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 295,
+          "discountedPrice": 236,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 350,
+          "discountedPrice": 315,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": [
+        "Historic Charm",
+        "Library",
+        "Wifi",
+        "Continental Breakfast"
+      ],
+      "description": "Charming historic inn in the heart of Boston with classic New England hospitality.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "austin_music_hotel",
+      "name": "Austin Music District Hotel",
+      "address": {
+        "street": "246 6th Street",
+        "city": "Austin",
+        "state": "TX",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.5,
+        "maxScore": 5,
+        "reviewCount": 428,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 220,
+          "discountedPrice": 176,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 225,
+          "discountedPrice": 180,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 270,
+          "discountedPrice": 243,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Live Music", "Rooftop Bar", "Wifi", "Pet Friendly"],
+      "description": "Experience Austin's vibrant music scene with live performances and downtown energy.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "denver_mountain_lodge",
+      "name": "Denver Mountain Lodge",
+      "address": {
+        "street": "135 17th Street",
+        "city": "Denver",
+        "state": "CO",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.7,
+        "maxScore": 5,
+        "reviewCount": 612,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 310,
+          "discountedPrice": 248,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 315,
+          "discountedPrice": 252,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 370,
+          "discountedPrice": 333,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Mountain Views", "Ski Storage", "Wifi", "Hot Tub"],
+      "description": "Mountain lodge atmosphere with easy access to Denver's attractions and nearby ski resorts.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "nashville_country_inn",
+      "name": "Nashville Country Inn",
+      "address": {
+        "street": "159 Broadway",
+        "city": "Nashville",
+        "state": "TN",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.3,
+        "maxScore": 5,
+        "reviewCount": 389,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 180,
+          "discountedPrice": 144,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 185,
+          "discountedPrice": 148,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 220,
+          "discountedPrice": 198,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": [
+        "Live Country Music",
+        "Honky Tonk Access",
+        "Wifi",
+        "Southern Breakfast"
+      ],
+      "description": "Authentic Nashville experience with country music and Southern hospitality.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "portland_eco_hotel",
+      "name": "Portland Eco Hotel",
+      "address": {
+        "street": "741 SW Morrison Street",
+        "city": "Portland",
+        "state": "OR",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.6,
+        "maxScore": 5,
+        "reviewCount": 523,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 260,
+          "discountedPrice": 195,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "25% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 265,
+          "discountedPrice": 198.75,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "25% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 310,
+          "discountedPrice": 279,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": [
+        "Eco-Friendly",
+        "Bike Rental",
+        "Wifi",
+        "Organic Restaurant"
+      ],
+      "description": "Sustainable hotel with eco-friendly practices and access to Portland's unique culture.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "new_orleans_jazz_hotel",
+      "name": "New Orleans Jazz Hotel",
+      "address": {
+        "street": "852 Royal Street",
+        "city": "New Orleans",
+        "state": "LA",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.4,
+        "maxScore": 5,
+        "reviewCount": 467,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 240,
+          "discountedPrice": 192,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 245,
+          "discountedPrice": 196,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 290,
+          "discountedPrice": 261,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Jazz Club", "Balcony Rooms", "Wifi", "Creole Cuisine"],
+      "description": "Immerse yourself in New Orleans culture with jazz music and authentic Creole atmosphere.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "phoenix_desert_resort",
+      "name": "Phoenix Desert Resort",
+      "address": {
+        "street": "963 Camelback Road",
+        "city": "Phoenix",
+        "state": "AZ",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.5,
+        "maxScore": 5,
+        "reviewCount": 678,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 320,
+          "discountedPrice": 256,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 325,
+          "discountedPrice": 260,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 380,
+          "discountedPrice": 342,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": [
+        "Desert Spa",
+        "Golf Course",
+        "Pool",
+        "Wifi",
+        "Tennis Court"
+      ],
+      "description": "Desert oasis with world-class spa treatments and championship golf course.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "atlanta_peachtree_hotel",
+      "name": "Atlanta Peachtree Hotel",
+      "address": {
+        "street": "357 Peachtree Street",
+        "city": "Atlanta",
+        "state": "GA",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.2,
+        "maxScore": 5,
+        "reviewCount": 445,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 210,
+          "discountedPrice": 168,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 215,
+          "discountedPrice": 172,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 250,
+          "discountedPrice": 225,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Business Center", "Fitness Center", "Wifi", "Restaurant"],
+      "description": "Modern business hotel in downtown Atlanta with excellent conference facilities.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "san_diego_beach_hotel",
+      "name": "San Diego Beach Hotel",
+      "address": {
+        "street": "159 Mission Beach Boulevard",
+        "city": "San Diego",
+        "state": "CA",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.8,
+        "maxScore": 5,
+        "reviewCount": 734,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 450,
+          "discountedPrice": 360,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 455,
+          "discountedPrice": 364,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 540,
+          "discountedPrice": 486,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": [
+        "Beach Access",
+        "Surfboard Rental",
+        "Pool",
+        "Wifi",
+        "Beachfront Restaurant"
+      ],
+      "description": "Beachfront paradise with direct beach access and perfect California weather.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "minneapolis_skyway_hotel",
+      "name": "Minneapolis Skyway Hotel",
+      "address": {
+        "street": "852 Nicollet Mall",
+        "city": "Minneapolis",
+        "state": "MN",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.1,
+        "maxScore": 5,
+        "reviewCount": 312,
+        "status": "Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 170,
+          "discountedPrice": 136,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 175,
+          "discountedPrice": 140,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 210,
+          "discountedPrice": 189,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": [
+        "Skyway Access",
+        "Heated Indoor Pool",
+        "Wifi",
+        "Business Center"
+      ],
+      "description": "Connected to Minneapolis skyway system, perfect for winter weather protection.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "four_seasons_cairo_first_residence",
+      "name": "Four Seasons Hotel Cairo at The First Residence",
+      "address": {
+        "street": "35 Giza Street",
+        "city": "Giza",
+        "state": "Cairo Governorate",
+        "country": "Egypt",
+        "countryIsoCode": "EG"
+      },
+      "rating": {
+        "score": 4.9,
+        "maxScore": 5,
+        "reviewCount": 1500,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 350,
+          "discountedPrice": 280,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 380,
+          "discountedPrice": 304,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 450,
+          "discountedPrice": 405,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "suite"
+        }
+      ],
+      "amenities": [
+        "Spa",
+        "Multiple Restaurants",
+        "Pools",
+        "Luxury Shopping",
+        "Nile Views"
+      ],
+      "description": "A luxurious 5-star hotel with an upscale shopping mall, multiple restaurants, a spa, and stunning views of the Nile and the Great Pyramids.",
+      "images": {
+        "main": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/155362452.jpg?k=bea6beb3eec45a4316d89d1f034f2044be8a7ec7519e34aa884a08c5da055ed6&o=&hp=1",
+        "gallery": [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/36/da/26/outdoor-pool.jpg?w=900&h=500&s=1",
+          "https://www.fourseasons.com/alt/img-opt/~75.701.0,0000-181,3333-1289,0000-1718,6667/publish/content/dam/fourseasons/images/web/CAF/CAF_514_300blackbanner_vertical.jpg",
+          "https://www.alfaisalholding.com/~/media/Images/A/Al-Faisal-v2/content-images/hospitality/Four%20seasons%20exterior%20Cropped.jpg"
+        ]
+      }
+    },
+    {
+      "id": "marriott_mena_house_cairo",
+      "name": "Marriott Mena House, Cairo",
+      "address": {
+        "street": "Pyramids Road",
+        "city": "Giza",
+        "state": "Cairo Governorate",
+        "country": "Egypt",
+        "countryIsoCode": "EG"
+      },
+      "rating": {
+        "score": 4.8,
+        "maxScore": 5,
+        "reviewCount": 2100,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 300,
+          "discountedPrice": 240,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 330,
+          "discountedPrice": 264,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 400,
+          "discountedPrice": 360,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "pyramid_view_room"
+        }
+      ],
+      "amenities": [
+        "Pyramid Views",
+        "Golf Course",
+        "Spa",
+        "Multiple Restaurants",
+        "Pool"
+      ],
+      "description": "A polished 5-star hotel boasting unparalleled pyramid views, a golf course, and a spa. Popular for its historical charm and proximity to the Giza Pyramids.",
+      "images": {
+        "main": "https://cache.marriott.com/is/image/marriotts7prod/mc-caimn-swimming-pool-15501-59645:Wide-Hor?wid=1318&fit=constrain",
+        "gallery": [
+          "https://cache.marriott.com/is/image/marriotts7prod/mc-caimn-swimming-pool-15501-59645:Wide-Hor?wid=1318&fit=constrain",
+          "https://cdn.audleytravel.com/5593/3996/79/1336759-marriott-mena-house-cairo.jpg"
+        ]
+      }
+    },
+    {
+      "id": "hilton_luxor_resort",
+      "name": "Hilton Luxor Resort & Spa",
+      "address": {
+        "street": "New Karnak",
+        "city": "Luxor",
+        "state": "Luxor Governorate",
+        "country": "Egypt",
+        "countryIsoCode": "EG"
+      },
+      "rating": {
+        "score": 4.7,
+        "maxScore": 5,
+        "reviewCount": 1800,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 180,
+          "discountedPrice": 144,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 200,
+          "discountedPrice": 160,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 250,
+          "discountedPrice": 225,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "nile_view_room"
+        }
+      ],
+      "amenities": [
+        "Spa",
+        "3 Restaurants",
+        "Shisha Lounge",
+        "2 Infinity Pools",
+        "Nile Views"
+      ],
+      "description": "A 5-star eco-certified spa retreat with chic restaurants, a shisha lounge, and infinity pools overlooking the Nile. Ideal for relaxation.",
+      "images": {
+        "main": "https://www.hilton.com/im/en/LUXHITW/3038696/twin-hilton-room-plus.jpg?impolicy=crop&cw=5463&ch=3058&gravity=NorthWest&xposition=0&yposition=291&rw=768&rh=430",
+        "gallery": [
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/666184193.jpg?k=ffb660ad170e5c650c14c7413775079dc0ae10756f124dec4418d5ee39851a33&o=&hp=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a9/b2/81/main-swimming-pool.jpg?w=1400&h=800&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a9/b2/81/main-swimming-pool.jpg?w=900&h=500&s=1"
+        ]
+      }
+    },
+    {
+      "id": "steigenberger_nile_palace_luxor",
+      "name": "Steigenberger Nile Palace",
+      "address": {
+        "street": "Khaled Ibn El Walid Street",
+        "city": "Luxor",
+        "state": "Luxor Governorate",
+        "country": "Egypt",
+        "countryIsoCode": "EG"
+      },
+      "rating": {
+        "score": 4.5,
+        "maxScore": 5,
+        "reviewCount": 1600,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 120,
+          "discountedPrice": 96,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 140,
+          "discountedPrice": 112,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 180,
+          "discountedPrice": 162,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "deluxe_room"
+        }
+      ],
+      "amenities": [
+        "4 Restaurants",
+        "3 Bars",
+        "Cafe",
+        "Outdoor Pool",
+        "Nilefront"
+      ],
+      "description": "An unpretentious yet formal 5-star eco-certified hotel offering a range of dining options and an outdoor pool, situated by the Nile.",
+      "images": {
+        "main": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/524490935.jpg?k=22ff34dc5b0c3807db67e87bd5a6446bec5f9e4ee927cefa83411535fdcca11d&o=&hp=1",
+        "gallery": [
+          "https://wellbeing-spa.com/wp-content/uploads/2022/05/StiegenNilePalaceHotel.jpg",
+          "https://wellbeing-spa.com/wp-content/uploads/2022/05/StiegenNilePalaceHotel.jpg"
+        ]
+      }
+    },
+    {
+      "id": "jaz_aquaviva_hurghada",
+      "name": "JAZ Aquaviva",
+      "address": {
+        "street": "Madinat Makadi",
+        "city": "Hurghada",
+        "state": "Red Sea Governorate",
+        "country": "Egypt",
+        "countryIsoCode": "EG"
+      },
+      "rating": {
+        "score": 4.6,
+        "maxScore": 5,
+        "reviewCount": 2500,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 220,
+          "discountedPrice": 176,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "all_inclusive_single"
+        },
+        {
+          "originalPrice": 250,
+          "discountedPrice": 200,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "all_inclusive_double"
+        },
+        {
+          "originalPrice": 300,
+          "discountedPrice": 270,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "family_suite"
+        }
+      ],
+      "amenities": [
+        "All-Inclusive",
+        "Water Park",
+        "Elegant Restaurants",
+        "Bars",
+        "Family Friendly"
+      ],
+      "description": "An upscale, all-inclusive 5-star eco-certified resort known for its water park, elegant restaurants, and swanky bars, perfect for families and leisure.",
+      "images": {
+        "main": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/349449905.jpg?k=8e98db097050b24e66e9d3fa0903a8ea21fbdfdb8af592ec0803057cb5007312&o=&hp=1",
+        "gallery": [
+          "https://images.jazhotels.com/1k14w-ZMdD2kRBEiHSoN3pJgHA8=/768x464/storage.googleapis.com%2Fjaz-prod%2Fcms%2FEgypt%2FHurghada%20-%20Madinat%20Makadi%2FJaz%20Aquaviva%2FOverview%20Night.jpg",
+          "https://images.jazhotels.com/1k14w-ZMdD2kRBEiHSoN3pJgHA8=/768x464/storage.googleapis.com%2Fjaz-prod%2Fcms%2FEgypt%2FHurghada%20-%20Madinat%20Makadi%2FJaz%20Aquaviva%2FOverview%20Night.jpg"
+        ]
+      }
+    },
+    {
+      "id": "rixos_premium_magawish_hurghada",
+      "name": "Rixos Premium Magawish Suites & Villas",
+      "address": {
+        "street": "Safaga Road",
+        "city": "Hurghada",
+        "state": "Red Sea Governorate",
+        "country": "Egypt",
+        "countryIsoCode": "EG"
+      },
+      "rating": {
+        "score": 4.9,
+        "maxScore": 5,
+        "reviewCount": 1900,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 400,
+          "discountedPrice": 320,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "suite"
+        },
+        {
+          "originalPrice": 450,
+          "discountedPrice": 360,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "deluxe_suite"
+        },
+        {
+          "originalPrice": 600,
+          "discountedPrice": 540,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "villa"
+        }
+      ],
+      "amenities": [
+        "All-Inclusive",
+        "Suites & Villas",
+        "Multiple Pools",
+        "Fine Dining",
+        "Resort Activities"
+      ],
+      "description": "A highly-rated 5-star resort in Hurghada offering exceptional luxury and service, with a focus on suites and villas.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "best_view_pyramids_hotel",
+      "name": "Best View Pyramids Hotel",
+      "address": {
+        "street": "1 Sphinx Street",
+        "city": "Giza",
+        "state": "Cairo Governorate",
+        "country": "Egypt",
+        "countryIsoCode": "EG"
+      },
+      "rating": {
+        "score": 4.2,
+        "maxScore": 5,
+        "reviewCount": 3000,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 60,
+          "discountedPrice": 48,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 70,
+          "discountedPrice": 56,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 90,
+          "discountedPrice": 81,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "pyramid_view_room"
+        }
+      ],
+      "amenities": ["Pyramid Views", "Rooftop Bar", "Restaurant", "Breakfast"],
+      "description": "A laid-back 3-star hotel with rooms offering direct views of the Pyramids of Khufu, plus a rooftop bar and restaurant. Excellent value for its location.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "the_nile_ritz_carlton_cairo",
+      "name": "The Nile Ritz-Carlton, Cairo",
+      "address": {
+        "street": "1113 Corniche El Nil",
+        "city": "Cairo",
+        "state": "Cairo Governorate",
+        "country": "Egypt",
+        "countryIsoCode": "EG"
+      },
+      "rating": {
+        "score": 4.8,
+        "maxScore": 5,
+        "reviewCount": 1700,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 380,
+          "discountedPrice": 304,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 420,
+          "discountedPrice": 336,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 500,
+          "discountedPrice": 450,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "club_room"
+        }
+      ],
+      "amenities": [
+        "Luxury Facilities",
+        "Spa",
+        "Fine Dining",
+        "Pools",
+        "Nile Views",
+        "Central Location"
+      ],
+      "description": "A sophisticated 5-star hotel located in Downtown Cairo, offering luxury and a convenient location near major attractions.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "kempinski_nile_hotel_cairo",
+      "name": "Kempinski Nile Hotel Cairo",
+      "address": {
+        "street": "12 Ahmed Ragheb Street",
+        "city": "Garden City",
+        "state": "Cairo Governorate",
+        "country": "Egypt",
+        "countryIsoCode": "EG"
+      },
+      "rating": {
+        "score": 4.7,
+        "maxScore": 5,
+        "reviewCount": 1400,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 320,
+          "discountedPrice": 256,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 350,
+          "discountedPrice": 280,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 420,
+          "discountedPrice": 378,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "nile_suite"
+        }
+      ],
+      "amenities": [
+        "Rooftop Pool",
+        "Spa",
+        "Dining Options",
+        "Nile Views",
+        "Luxury Service"
+      ],
+      "description": "A 5-star hotel in Downtown Cairo known for its elegance and service, often featuring a rooftop pool and views of the Nile.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "le_meridien_cairo_airport",
+      "name": "Le Méridien Cairo Airport",
+      "address": {
+        "street": "Cairo International Airport Terminal 3",
+        "city": "Cairo",
+        "state": "Cairo Governorate",
+        "country": "Egypt",
+        "countryIsoCode": "EG"
+      },
+      "rating": {
+        "score": 4.4,
+        "maxScore": 5,
+        "reviewCount": 1100,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 150,
+          "discountedPrice": 120,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 170,
+          "discountedPrice": 136,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 200,
+          "discountedPrice": 180,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "executive_room"
+        }
+      ],
+      "amenities": [
+        "Airport Access",
+        "Dining",
+        "Pool",
+        "Fitness Center",
+        "Wifi"
+      ],
+      "description": "A convenient and highly-rated 5-star hotel located directly at Cairo Airport, perfect for layovers or early/late flights.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "sofitel_winter_palace_luxor",
+      "name": "Sofitel Winter Palace Luxor",
+      "address": {
+        "street": "Corniche El Nil",
+        "city": "Luxor",
+        "state": "Luxor Governorate",
+        "country": "Egypt",
+        "countryIsoCode": "EG"
+      },
+      "rating": {
+        "score": 4.6,
+        "maxScore": 5,
+        "reviewCount": 1300,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 160,
+          "discountedPrice": 128,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "standard"
+        },
+        {
+          "originalPrice": 190,
+          "discountedPrice": 152,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "superior"
+        },
+        {
+          "originalPrice": 240,
+          "discountedPrice": 216,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "suite"
+        }
+      ],
+      "amenities": [
+        "Historic Building",
+        "Nile Views",
+        "Gardens",
+        "Pool",
+        "Multiple Restaurants"
+      ],
+      "description": "An iconic 5-star hotel in Luxor with a rich history, beautiful gardens, and stunning views of the Nile, offering a blend of classic elegance and modern comfort.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "royal_mansour_marrakech",
+      "name": "Royal Mansour Marrakech",
+      "address": {
+        "street": "Rue Abou Abbas El Sebti",
+        "city": "Marrakech",
+        "state": "Marrakech-Safi",
+        "country": "Morocco",
+        "countryIsoCode": "MA"
+      },
+      "rating": {
+        "score": 5.0,
+        "maxScore": 5,
+        "reviewCount": 800,
+        "status": "Exceptional"
+      },
+      "pricing": [
+        {
+          "originalPrice": 1500,
+          "discountedPrice": 1200,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "private_riad_one_bedroom"
+        },
+        {
+          "originalPrice": 2000,
+          "discountedPrice": 1600,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "private_riad_two_bedroom"
+        },
+        {
+          "originalPrice": 2500,
+          "discountedPrice": 2250,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "grand_riad"
+        }
+      ],
+      "amenities": [
+        "Private Riads with Plunge Pools",
+        "Fine Dining",
+        "Extensive Spa",
+        "Beautiful Gardens",
+        "Butler Service"
+      ],
+      "description": "Considered one of the world's most luxurious hotels, this hotel offers private riads instead of traditional rooms, set within a recreated medina with stunning gardens.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "la_mamounia_marrakech",
+      "name": "La Mamounia",
+      "address": {
+        "street": "Avenue Bab Jdid",
+        "city": "Marrakech",
+        "state": "Marrakech-Safi",
+        "country": "Morocco",
+        "countryIsoCode": "MA"
+      },
+      "rating": {
+        "score": 4.9,
+        "maxScore": 5,
+        "reviewCount": 1000,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 1000,
+          "discountedPrice": 800,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "deluxe_room"
+        },
+        {
+          "originalPrice": 1200,
+          "discountedPrice": 960,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "suite"
+        },
+        {
+          "originalPrice": 1500,
+          "discountedPrice": 1350,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "riad"
+        }
+      ],
+      "amenities": [
+        "Gardens",
+        "Multiple Restaurants",
+        "World-class Spa",
+        "Pools",
+        "Opulent Design"
+      ],
+      "description": "An iconic and legendary palace hotel in Marrakech, known for its opulent Moroccan design, vast gardens, and world-class spa.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "the_oberoi_marrakech",
+      "name": "The Oberoi Marrakech",
+      "address": {
+        "street": "Route de Fès, Km 11",
+        "city": "Marrakech",
+        "state": "Marrakech-Safi",
+        "country": "Morocco",
+        "countryIsoCode": "MA"
+      },
+      "rating": {
+        "score": 4.8,
+        "maxScore": 5,
+        "reviewCount": 700,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 700,
+          "discountedPrice": 560,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "deluxe_villa"
+        },
+        {
+          "originalPrice": 850,
+          "discountedPrice": 680,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "royal_villa"
+        },
+        {
+          "originalPrice": 1100,
+          "discountedPrice": 990,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "presidential_villa"
+        }
+      ],
+      "amenities": [
+        "Private Villas with Pools",
+        "Fine Dining",
+        "Large Spa",
+        "Olive Groves",
+        "Atlas Mountain Views"
+      ],
+      "description": "A serene and luxurious retreat offering spacious villas and pavilions set amidst olive groves, with stunning views of the Atlas Mountains.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "kasbah_tamadot_atlas_mountains",
+      "name": "Kasbah Tamadot",
+      "address": {
+        "street": "BP 67, Asni",
+        "city": "Marrakech",
+        "state": "Marrakech-Safi",
+        "country": "Morocco",
+        "countryIsoCode": "MA"
+      },
+      "rating": {
+        "score": 4.9,
+        "maxScore": 5,
+        "reviewCount": 600,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 600,
+          "discountedPrice": 480,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "standard_room"
+        },
+        {
+          "originalPrice": 750,
+          "discountedPrice": 600,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "suite"
+        },
+        {
+          "originalPrice": 900,
+          "discountedPrice": 810,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "berber_tent"
+        }
+      ],
+      "amenities": [
+        "Infinity Pool",
+        "Spa",
+        "Unique Rooms and Suites",
+        "Outdoor Activities",
+        "Atlas Mountain Views"
+      ],
+      "description": "Sir Richard Branson's luxurious boutique hotel in the Atlas Mountains, combining relaxation with adventure in a stylish and authentic setting. Known for its iconic infinity pool.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "four_seasons_resort_marrakech",
+      "name": "Four Seasons Resort Marrakech",
+      "address": {
+        "street": "Avenue de la Ménara",
+        "city": "Marrakech",
+        "state": "Marrakech-Safi",
+        "country": "Morocco",
+        "countryIsoCode": "MA"
+      },
+      "rating": {
+        "score": 4.8,
+        "maxScore": 5,
+        "reviewCount": 900,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 500,
+          "discountedPrice": 400,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "garden_view_room"
+        },
+        {
+          "originalPrice": 600,
+          "discountedPrice": 480,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "pavilion_room"
+        },
+        {
+          "originalPrice": 750,
+          "discountedPrice": 675,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "riad_suite"
+        }
+      ],
+      "amenities": [
+        "Moorish Gardens",
+        "Multiple Pools",
+        "Spa",
+        "Various Dining Options",
+        "Close to Medina"
+      ],
+      "description": "Nestled in beautiful Moorish gardens, this elegant hotel offers a luxurious retreat with contemporary design and is a short walk from the bustling Medina.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "riad_kniza_marrakech",
+      "name": "Riad Kniza",
+      "address": {
+        "street": "23, Rue de la Bahia",
+        "city": "Marrakech",
+        "state": "Marrakech-Safi",
+        "country": "Morocco",
+        "countryIsoCode": "MA"
+      },
+      "rating": {
+        "score": 4.7,
+        "maxScore": 5,
+        "reviewCount": 550,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 280,
+          "discountedPrice": 224,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "standard_room"
+        },
+        {
+          "originalPrice": 350,
+          "discountedPrice": 280,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "junior_suite"
+        },
+        {
+          "originalPrice": 450,
+          "discountedPrice": 405,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "royal_suite"
+        }
+      ],
+      "amenities": [
+        "Rooftop Pool",
+        "Indoor Pool",
+        "Spa Facilities",
+        "Personalized Service",
+        "Traditional Moroccan Decor"
+      ],
+      "description": "A highly-rated, intimate luxury riad located in the heart of Marrakech's Old Medina, known for its exceptional hospitality and traditional charm.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "savoy_le_grand_hotel_marrakech",
+      "name": "Savoy Le Grand Hotel Marrakech",
+      "address": {
+        "street": "Avenue Prince Moulay Rachid",
+        "city": "Marrakech",
+        "state": "Marrakech-Safi",
+        "country": "Morocco",
+        "countryIsoCode": "MA"
+      },
+      "rating": {
+        "score": 4.5,
+        "maxScore": 5,
+        "reviewCount": 1200,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 200,
+          "discountedPrice": 160,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "standard_room"
+        },
+        {
+          "originalPrice": 250,
+          "discountedPrice": 200,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "executive_room"
+        },
+        {
+          "originalPrice": 300,
+          "discountedPrice": 270,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "suite"
+        }
+      ],
+      "amenities": [
+        "Large Pools",
+        "Multiple Restaurants",
+        "Spa",
+        "Fitness Center"
+      ],
+      "description": "A popular 5-star luxury hotel in Marrakech, offering a grand experience with good reviews for its service and facilities.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "palais_amani_fes",
+      "name": "Palais Amani",
+      "address": {
+        "street": "12 Derb El Miter",
+        "city": "Fes",
+        "state": "Fès-Meknès",
+        "country": "Morocco",
+        "countryIsoCode": "MA"
+      },
+      "rating": {
+        "score": 4.6,
+        "maxScore": 5,
+        "reviewCount": 450,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 250,
+          "discountedPrice": 200,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "standard_room"
+        },
+        {
+          "originalPrice": 300,
+          "discountedPrice": 240,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "suite"
+        },
+        {
+          "originalPrice": 380,
+          "discountedPrice": 342,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "deluxe_suite"
+        }
+      ],
+      "amenities": [
+        "Traditional Riad Setting",
+        "Pool",
+        "Spa",
+        "Refined Dining",
+        "Medina Location"
+      ],
+      "description": "A one-of-a-kind luxury retreat in the medieval capital of Fes, brimming with historic culture and offering a serene escape.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "hotel_riu_palace_tikida_taghazout",
+      "name": "Hotel Riu Palace Tikida Taghazout - All Inclusive",
+      "address": {
+        "street": "Tamraght",
+        "city": "Taghazout",
+        "state": "Souss-Massa",
+        "country": "Morocco",
+        "countryIsoCode": "MA"
+      },
+      "rating": {
+        "score": 4.4,
+        "maxScore": 5,
+        "reviewCount": 800,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 200,
+          "discountedPrice": 160,
+          "currency": "USD",
+          "priceUnit": "per person per night",
+          "discount": "20% OFF",
+          "roomType": "all_inclusive_single"
+        },
+        {
+          "originalPrice": 240,
+          "discountedPrice": 192,
+          "currency": "USD",
+          "priceUnit": "per person per night",
+          "discount": "20% OFF",
+          "roomType": "all_inclusive_double"
+        },
+        {
+          "originalPrice": 300,
+          "discountedPrice": 270,
+          "currency": "USD",
+          "priceUnit": "per person per night",
+          "discount": "10% OFF",
+          "roomType": "all_inclusive_suite"
+        }
+      ],
+      "amenities": [
+        "All-Inclusive",
+        "Multiple Pools",
+        "Dining Options",
+        "Direct Beach Access",
+        "Entertainment"
+      ],
+      "description": "A 5-star all-inclusive luxury hotel in Taghazout, popular for those seeking a beach resort experience with comprehensive amenities.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "agafay_luxury_camp",
+      "name": "Agafay Luxury Camp",
+      "address": {
+        "street": "Agafay Desert",
+        "city": "Marrakech",
+        "state": "Marrakech-Safi",
+        "country": "Morocco",
+        "countryIsoCode": "MA"
+      },
+      "rating": {
+        "score": 4.7,
+        "maxScore": 5,
+        "reviewCount": 300,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 350,
+          "discountedPrice": 280,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "luxury_tent"
+        },
+        {
+          "originalPrice": 450,
+          "discountedPrice": 360,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "deluxe_tent"
+        },
+        {
+          "originalPrice": 550,
+          "discountedPrice": 495,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "family_tent"
+        }
+      ],
+      "amenities": [
+        "Luxury Tents",
+        "Private Bathrooms",
+        "Dining Under the Stars",
+        "Desert Activities",
+        "Stargazing"
+      ],
+      "description": "For a unique luxury desert experience, this camp offers secluded retreats in Berber tents under the starry sky, with options for activities like buggy rides.",
+      "images": {
+        "main": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/cb/36/aa/caption.jpg?w=900&h=500&s=1",
+        "gallery": [
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/515738170.jpg?k=07488b514cb1b546b0b933fd68e4d148467c2b7476b076e9aed3df411db8965a&o=&hp=1",
+          "https://i0.wp.com/ahedgehoginthekitchen.com/wp-content/uploads/2024/07/Agafay-Desert-Luxury-Camp-1.jpg?resize=600%2C900&ssl=1",
+          "https://i0.wp.com/ahedgehoginthekitchen.com/wp-content/uploads/2024/07/Agafay-Desert-Luxury-Camp-1.jpg?resize=600%2C900&ssl=1"
+        ]
+      }
+    },
+    {
+      "id": "grace_hotel_santorini",
+      "name": "Grace Hotel Santorini, Auberge Resorts Collection",
+      "address": {
+        "street": "Imerovigli",
+        "city": "Santorini",
+        "state": "South Aegean",
+        "country": "Greece",
+        "countryIsoCode": "GR"
+      },
+      "rating": {
+        "score": 5.0,
+        "maxScore": 5,
+        "reviewCount": 750,
+        "status": "Exceptional"
+      },
+      "pricing": [
+        {
+          "originalPrice": 1200,
+          "discountedPrice": 960,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "deluxe_room"
+        },
+        {
+          "originalPrice": 1500,
+          "discountedPrice": 1200,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "junior_suite"
+        },
+        {
+          "originalPrice": 2000,
+          "discountedPrice": 1800,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "villa"
+        }
+      ],
+      "amenities": [
+        "Infinity Pool with Caldera Views",
+        "Fine Dining",
+        "Spa Treatments",
+        "Personalized Service",
+        "Sunset Views"
+      ],
+      "description": "An exclusive luxury boutique hotel in a spectacular location high on Santorini's Caldera, renowned for its design and breathtaking Aegean sunsets.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "canaves_oia_epitome_santorini",
+      "name": "Canaves Oia Epitome",
+      "address": {
+        "street": "Main Street",
+        "city": "Oia",
+        "state": "South Aegean",
+        "country": "Greece",
+        "countryIsoCode": "GR"
+      },
+      "rating": {
+        "score": 4.9,
+        "maxScore": 5,
+        "reviewCount": 600,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 1500,
+          "discountedPrice": 1200,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "villa_one_bedroom"
+        },
+        {
+          "originalPrice": 1800,
+          "discountedPrice": 1440,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "villa_two_bedroom"
+        },
+        {
+          "originalPrice": 2200,
+          "discountedPrice": 1980,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "grand_villa"
+        }
+      ],
+      "amenities": [
+        "Private Pools for Each Villa",
+        "Upscale Dining",
+        "Serene Atmosphere",
+        "Sea Views",
+        "Exclusive Design"
+      ],
+      "description": "Located in Oia, this luxurious property offers private villas with stunning sea views and exceptional design, known for its privacy and elegance.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "myconian_utopia_resort_mykonos",
+      "name": "Myconian Utopia Resort",
+      "address": {
+        "street": "Elia Beach",
+        "city": "Mykonos",
+        "state": "South Aegean",
+        "country": "Greece",
+        "countryIsoCode": "GR"
+      },
+      "rating": {
+        "score": 4.8,
+        "maxScore": 5,
+        "reviewCount": 900,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 800,
+          "discountedPrice": 640,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "deluxe_room"
+        },
+        {
+          "originalPrice": 1000,
+          "discountedPrice": 800,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "suite_with_pool"
+        },
+        {
+          "originalPrice": 1300,
+          "discountedPrice": 1170,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "villa"
+        }
+      ],
+      "amenities": [
+        "Infinity Pools",
+        "Wellness Center",
+        "Gourmet Dining",
+        "Sea Views",
+        "Tailor-made Hospitality"
+      ],
+      "description": "Combines unspoiled nature with contemporary design, offering exclusive, tailor-made hospitality on Mykonos, with breathtaking views.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "cavo_tagoo_mykonos",
+      "name": "Cavo Tagoo Mykonos",
+      "address": {
+        "street": "Tagoo",
+        "city": "Mykonos",
+        "state": "South Aegean",
+        "country": "Greece",
+        "countryIsoCode": "GR"
+      },
+      "rating": {
+        "score": 4.9,
+        "maxScore": 5,
+        "reviewCount": 1100,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 900,
+          "discountedPrice": 720,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "classic_room"
+        },
+        {
+          "originalPrice": 1100,
+          "discountedPrice": 880,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "suite_with_pool"
+        },
+        {
+          "originalPrice": 1400,
+          "discountedPrice": 1260,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "villa"
+        }
+      ],
+      "amenities": [
+        "Iconic Infinity Pool",
+        "Swim-up Bar",
+        "Restaurant",
+        "Spa",
+        "Panoramic Sea Views",
+        "Chic Design"
+      ],
+      "description": "A famous luxury hotel known for its iconic infinity pool with a swim-up bar and minimalist, chic design, offering panoramic sea views.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "domes_of_elounda_crete",
+      "name": "Domes of Elounda, Autograph Collection",
+      "address": {
+        "street": "Main Street",
+        "city": "Elounda",
+        "state": "Crete",
+        "country": "Greece",
+        "countryIsoCode": "GR"
+      },
+      "rating": {
+        "score": 4.7,
+        "maxScore": 5,
+        "reviewCount": 1300,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 400,
+          "discountedPrice": 320,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "suite"
+        },
+        {
+          "originalPrice": 500,
+          "discountedPrice": 400,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "family_villa"
+        },
+        {
+          "originalPrice": 700,
+          "discountedPrice": 630,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "private_residence"
+        }
+      ],
+      "amenities": [
+        "Private Pools (many units)",
+        "Multiple Restaurants",
+        "Spa",
+        "Family-friendly Options",
+        "Mediterranean Luxury"
+      ],
+      "description": "Consisting solely of unique design suites and villas, this resort offers a true Mediterranean luxury experience on Crete, blending with the natural environment.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "the_romanos_costa_navarino",
+      "name": "The Romanos, a Luxury Collection Resort",
+      "address": {
+        "street": "Navarino Dunes",
+        "city": "Pylos-Nestoras",
+        "state": "Peloponnese",
+        "country": "Greece",
+        "countryIsoCode": "GR"
+      },
+      "rating": {
+        "score": 4.8,
+        "maxScore": 5,
+        "reviewCount": 1500,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 600,
+          "discountedPrice": 480,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "deluxe_room"
+        },
+        {
+          "originalPrice": 750,
+          "discountedPrice": 600,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "infinity_room"
+        },
+        {
+          "originalPrice": 900,
+          "discountedPrice": 810,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "villa"
+        }
+      ],
+      "amenities": [
+        "Private Infinity Pools",
+        "Butler Service",
+        "Golf Course Access",
+        "Multiple Dining Options",
+        "Spa",
+        "Tennis Centre"
+      ],
+      "description": "Part of a larger luxury resort complex, The Romanos offers private infinity pools, butler service, and upgraded amenities amidst rugged hills and a long coastline.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "angsana_corfu_resort",
+      "name": "Angsana Corfu Resort & Spa",
+      "address": {
+        "street": "Benitses",
+        "city": "Corfu",
+        "state": "Ionian Islands",
+        "country": "Greece",
+        "countryIsoCode": "GR"
+      },
+      "rating": {
+        "score": 4.6,
+        "maxScore": 5,
+        "reviewCount": 850,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 350,
+          "discountedPrice": 280,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "standard_room"
+        },
+        {
+          "originalPrice": 450,
+          "discountedPrice": 360,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "suite_sea_view"
+        },
+        {
+          "originalPrice": 600,
+          "discountedPrice": 540,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "villa_with_private_pool"
+        }
+      ],
+      "amenities": [
+        "Private Pools (in villas)",
+        "Spa",
+        "Elegant Dining",
+        "Sea Views",
+        "Asian-Greek Fusion"
+      ],
+      "description": "The first Banyan Tree property in Europe, blending Greek hospitality with Asian influences, featuring elegant rooms, suites, and villas with private pools and sea views.",
+      "images": {
+        "main": "https://www.angsana.com/assets/2023-08/angsana%20corfu%20resort.jpg",
+        "gallery": [
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/306975513.jpg?k=9c52d622e82d35ccaa4f8078009b98e707e0234e49b1be2c52704267b01ae14a&o=&hp=1",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/306975513.jpg?k=9c52d622e82d35ccaa4f8078009b98e707e0234e49b1be2c52704267b01ae14a&o=&hp=1",
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/306975513.jpg?k=9c52d622e82d35ccaa4f8078009b98e707e0234e49b1be2c52704267b01ae14a&o=&hp=1"
+        ]
+      }
+    },
+    {
+      "id": "the_dolli_athens",
+      "name": "The Dolli",
+      "address": {
+        "street": "Mitropoleos 49",
+        "city": "Athens",
+        "state": "Attica",
+        "country": "Greece",
+        "countryIsoCode": "GR"
+      },
+      "rating": {
+        "score": 4.7,
+        "maxScore": 5,
+        "reviewCount": 400,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 400,
+          "discountedPrice": 320,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "classic_room"
+        },
+        {
+          "originalPrice": 500,
+          "discountedPrice": 400,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "acropolis_view_room"
+        },
+        {
+          "originalPrice": 650,
+          "discountedPrice": 585,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "suite_with_acropolis_view"
+        }
+      ],
+      "amenities": [
+        "Infinity Pool with Acropolis Views",
+        "Unique Room Designs",
+        "Central Location",
+        "Fine Dining"
+      ],
+      "description": "A new luxury hotel in the vibrant Plaka neighborhood of Athens, just steps from the Acropolis. Features individually appointed rooms and a breathtaking infinity pool with Acropolis views.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "grecotel_cape_sounio",
+      "name": "Grecotel Cape Sounio",
+      "address": {
+        "street": "Sounio",
+        "city": "Sounio",
+        "state": "Attica",
+        "country": "Greece",
+        "countryIsoCode": "GR"
+      },
+      "rating": {
+        "score": 4.5,
+        "maxScore": 5,
+        "reviewCount": 1000,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 300,
+          "discountedPrice": 240,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "bungalow"
+        },
+        {
+          "originalPrice": 380,
+          "discountedPrice": 304,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "villa"
+        },
+        {
+          "originalPrice": 450,
+          "discountedPrice": 405,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "private_residence"
+        }
+      ],
+      "amenities": [
+        "Private Beaches",
+        "Wellness Program",
+        "Renovated Facilities",
+        "Views of Temple of Poseidon",
+        "Pine Forests"
+      ],
+      "description": "An iconic resort recently renovated, set against the legendary Temple of Poseidon with pine forests and two private beaches. Offers an innovative wellness program.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    },
+    {
+      "id": "stella_island_luxury_resort_crete",
+      "name": "Stella Island Luxury Resort & Spa - Adults Only",
+      "address": {
+        "street": "Analipsis Hersonissos",
+        "city": "Crete",
+        "state": "Crete",
+        "country": "Greece",
+        "countryIsoCode": "GR"
+      },
+      "rating": {
+        "score": 4.7,
+        "maxScore": 5,
+        "reviewCount": 1600,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 400,
+          "discountedPrice": 320,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double_room"
+        },
+        {
+          "originalPrice": 500,
+          "discountedPrice": 400,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "swim_up_room"
+        },
+        {
+          "originalPrice": 650,
+          "discountedPrice": 585,
+          "currency": "EUR",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "villa_with_private_pool"
+        }
+      ],
+      "amenities": [
+        "Lagoon-style Pools",
+        "Spa",
+        "Fine Dining",
+        "Adults Only",
+        "Relaxation Focused"
+      ],
+      "description": "A highly-rated adults-only luxury resort on Crete, known for its stunning lagoon-style pools and a focus on relaxation and romantic getaways.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+        "gallery": [
+          "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070"
+        ]
+      }
+    }
+  ],
+  "recommended_hotels": [
+    {
+      "id": "marriott_marquis_sf",
+      "name": "San Francisco Marriott Marquis",
+      "address": {
+        "street": "780 Mission Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.9,
+        "maxScore": 5,
+        "reviewCount": 276,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 499,
+          "discountedPrice": 399,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 502,
+          "discountedPrice": 401.6,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 600,
+          "discountedPrice": 540,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Parking", "Attached Bathroom", "CCTV Cameras", "Wifi"],
+      "description": "Whether you are in town for business or leisure, San Francisco welcomes travelers to Northern California with exceptional service.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "grand_central_nyc",
+      "name": "Grand Central Hotel New York",
+      "address": {
+        "street": "123 Park Avenue",
+        "city": "New York",
+        "state": "NY",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.7,
+        "maxScore": 5,
+        "reviewCount": 892,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 650,
+          "discountedPrice": 520,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 655,
+          "discountedPrice": 524,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 780,
+          "discountedPrice": 702,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": [
+        "Valet Parking",
+        "Concierge",
+        "Fitness Center",
+        "Wifi",
+        "Room Service"
+      ],
+      "description": "Luxury hotel in the heart of Manhattan with stunning city views and world-class amenities.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "ocean_view_miami",
+      "name": "Ocean View Resort Miami",
+      "address": {
+        "street": "456 Ocean Drive",
+        "city": "Miami",
+        "state": "FL",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.5,
+        "maxScore": 5,
+        "reviewCount": 634,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 380,
+          "discountedPrice": 304,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 385,
+          "discountedPrice": 308,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 450,
+          "discountedPrice": 405,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Beach Access", "Pool", "Spa", "Wifi", "Restaurant"],
+      "description": "Beachfront resort with direct ocean access and tropical paradise vibes.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "downtown_chicago_suite",
+      "name": "Downtown Chicago Suites",
+      "address": {
+        "street": "789 Michigan Avenue",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.3,
+        "maxScore": 5,
+        "reviewCount": 445,
+        "status": "Very Good"
+      },
+      "pricing": [
+        {
+          "originalPrice": 420,
+          "discountedPrice": 315,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "25% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 425,
+          "discountedPrice": 318.75,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "25% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 500,
+          "discountedPrice": 450,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Parking", "Kitchen", "Laundry", "Wifi", "Business Center"],
+      "description": "Spacious suites perfect for extended stays in downtown Chicago.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "vegas_strip_palace",
+      "name": "Vegas Strip Palace",
+      "address": {
+        "street": "321 Las Vegas Boulevard",
+        "city": "Las Vegas",
+        "state": "NV",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.6,
+        "maxScore": 5,
+        "reviewCount": 1203,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 299,
+          "discountedPrice": 239,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 305,
+          "discountedPrice": 244,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 360,
+          "discountedPrice": 324,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": ["Casino", "Pool", "Shows", "Wifi", "Multiple Restaurants"],
+      "description": "Experience the excitement of Vegas with luxurious accommodations right on the Strip.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    },
+    {
+      "id": "san_diego_beach_hotel",
+      "name": "San Diego Beach Hotel",
+      "address": {
+        "street": "159 Mission Beach Boulevard",
+        "city": "San Diego",
+        "state": "CA",
+        "country": "United States",
+        "countryIsoCode": "US"
+      },
+      "rating": {
+        "score": 4.8,
+        "maxScore": 5,
+        "reviewCount": 734,
+        "status": "Excellent"
+      },
+      "pricing": [
+        {
+          "originalPrice": 450,
+          "discountedPrice": 360,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "single"
+        },
+        {
+          "originalPrice": 455,
+          "discountedPrice": 364,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "20% OFF",
+          "roomType": "double"
+        },
+        {
+          "originalPrice": 540,
+          "discountedPrice": 486,
+          "currency": "USD",
+          "priceUnit": "per night",
+          "discount": "10% OFF",
+          "roomType": "triple"
+        }
+      ],
+      "amenities": [
+        "Beach Access",
+        "Surfboard Rental",
+        "Pool",
+        "Wifi",
+        "Beachfront Restaurant"
+      ],
+      "description": "Beachfront paradise with direct beach access and perfect California weather.",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        ]
+      }
+    }
+  ],
+  "best_offer": [
+    {
+      "id": "seattle_waterfront",
+      "name": "Seattle Waterfront Hotel",
+      "location": "United States",
+      "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+      "id": "grand_central_nyc",
+      "name": "Grand Central Hotel New York",
+      "location": "New York, NY",
+      "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "denver_mountain_lodge",
+      "name": "Denver Mountain Lodge",
+      "location": "Miami, FL",
+      "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+      "id": "downtown_chicago_suite",
+      "name": "Downtown Chicago Suites",
+      "location": "Chicago, IL",
+      "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "vegas_strip_palace",
+      "name": "Vegas Strip Palace",
+      "location": "Las Vegas, NV",
+      "image": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "san_diego_beach_hotel",
+      "name": "San Diego Beach Hotel",
+      "location": "San Diego, CA",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}

@@ -16,7 +16,7 @@ function HomePage() {
   const carouselRef = useRef(null);
   const [sidebarShrink, setSidebarShrink] = useState(false);
 
-  //fetch recommended hotels data
+  
   useEffect(()=>{
     setLoading(true);
     setError(null);
@@ -42,7 +42,7 @@ function HomePage() {
 
   const scrollCarousel = (direction) => {
     if (carouselRef.current) {
-      const scrollAmount = 400; // Adjust based on card width
+      const scrollAmount = 400;
       const currentScroll = carouselRef.current.scrollLeft;
       
       if (direction === 'left') {
@@ -66,7 +66,7 @@ function HomePage() {
   const canScrollRight = () => {
     if (!carouselRef.current) return false;
     const { scrollLeft, scrollWidth, clientWidth } = carouselRef.current;
-    return scrollLeft < scrollWidth - clientWidth - 10; // 10px buffer
+    return scrollLeft < scrollWidth - clientWidth - 10;
   };
   
   return (

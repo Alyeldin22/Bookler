@@ -30,7 +30,7 @@ function NavigationHeader() {
   };
 
   return (
-    <header className="h-80 bg-cover bg-center bg-no-repeat relative" style={{backgroundImage: `url(${headerBg})`}}>
+    <header className="h-80 bg-cover bg-center bg-no-repeat relative" style={{backgroundImage: `url(${headerBg})`}}> 
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black bg-opacity-30"></div>
       {/* Navigation Items */}
@@ -48,15 +48,15 @@ function NavigationHeader() {
               className="flex items-center gap-3 bg-white bg-opacity-20 backdrop-blur-sm rounded-full px-4 py-2 cursor-pointer"
               onClick={handleDropdownToggle}
             >
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center overflow-hidden">
-                {currentUser.photo ? (
-                  <img src={currentUser.photo} alt="profile" className="w-8 h-8 object-cover rounded-full" />
-                ) : (
-                  <FontAwesomeIcon icon={faUser} className="text-white text-sm" />
-                )}
-              </div>
-              <span className="text-white font-medium">{currentUser.name || currentUser.email}</span>
-              <FontAwesomeIcon icon={faChevronDown} className="text-white text-xs" />
+            <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center overflow-hidden">
+              {currentUser.photo ? (
+                <img src={currentUser.photo} alt="profile" className="w-8 h-8 object-cover rounded-full" />
+              ) : (
+                <FontAwesomeIcon icon={faUser} className="text-white text-sm" />
+              )}
+            </div>
+            <span className="text-white font-medium">{currentUser.name || currentUser.email}</span>
+            <FontAwesomeIcon icon={faChevronDown} className="text-white text-xs" />
             </div>
             {dropdownOpen && (
               <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50 animate-fade-in">
